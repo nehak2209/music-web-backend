@@ -1,0 +1,33 @@
+{
+  "name": "wim-project",
+  "version": "1.0.0",
+  "description": "A music websitte backend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehak2209/music-web-backend.git"
+  },
+  "keywords": [
+    "music",
+    "website",
+    "backend"
+  ],
+  "author": "Neha Khairnar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehak2209/music-web-backend/issues"
+  },
+  "homepage": "https://github.com/nehak2209/music-web-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
